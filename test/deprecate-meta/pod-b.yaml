@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app
+  annotations:
+    comment: 중복 노드 셀렉터 테스트
+spec: 
+  containers: 
+    - name: nginx
+      image: nginx
